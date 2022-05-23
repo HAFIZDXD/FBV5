@@ -1,4 +1,4 @@
-# FBV5
+# KONTOL
 Crack akun FB OLD RANDOM!
 
 # BAHAN BAHAN
@@ -9,4 +9,4 @@ $ cd FBV5
 
 $ ls(l kecil)
 
-$python Cr4ckV5.py
+$ python CrackV5.py
