@@ -49,7 +49,7 @@ NEW UPDATE V6 29/may/2022
 
 \033[1;37m[\033[0;41;37m===========INFO SC===========\033[1;37;40m\033[1;32m] \033[1;37;40m
            
-                               \033[1;37;40m GITHUB:Github.Com.HafizdXD
+\033[1;37;40m GITHUB:Github.Com.HafizdXD
 """
 
 class Main:
