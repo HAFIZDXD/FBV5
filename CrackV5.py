@@ -87,7 +87,6 @@ class Main:
 			
 			print("\033[0;93m [+] Berhasil Mengumpukan -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n%s [!] Note %s, %sJIKA%s AKUN (OK) TAPI DILOGINKAN CP HARAP TUNNGGU BEBERAPA HARI/MINGGU/BULAN Nanti Jebol Sendiri :) "%(G,Y,B,Y))
 				print("%s GUNAKAN SANDI INI, SILAHKAN SALIN DAN TEMPEL DI BAWAH : %s786786,123456,1234567,123456789"%(G,Y))
 				listpass = input("%s [?] Masukan Sandi :%s "%(G,Y))
 				if len(listpass)<=5:
