@@ -44,7 +44,7 @@ logo = """
   \033[1;37m██╔══██║██╔══██║██╔══╝░░██║██╔══╝░░██║░░██║
   \033[1;37m██║░░██║██║░░██║██║░░░░░██║███████╗██████╔╝
  ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░
-NEW UPDATE V6 29/may/2022
+NEW UPDATE V7 01/juni/2022
 
 
 \033[1;37m[\033[0;41;37m===========INFO SC===========\033[1;37;40m\033[1;32m] \033[1;37;40m
@@ -88,7 +88,7 @@ class Main:
 			print("\033[0;93m [+] Berhasil Mengumpukan -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n%s [!] Note %s, %sGUNAKAN%s SANDI INI DAN TEMPEL DI BAWAH "%(G,Y,B,Y))
-				print("%s : %s786786,123456,1234567,123456789"%(G,Y))
+				print("%s [☆] %s786786,123456,1234567,123456789"%(G,Y))
 				listpass = input("%s [?] Masukan Sandi :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] SANDI MINNIMAL 6 KARAKTER"%(B))
