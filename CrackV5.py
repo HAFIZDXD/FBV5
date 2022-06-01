@@ -49,7 +49,7 @@ NEW UPDATE V6 29/may/2022
 
 \033[1;37m[\033[0;41;37m===========INFO SC===========\033[1;37;40m\033[1;32m] \033[1;37;40m
            
-                               \033[1;37;40m GITHUB:Github.Com.HafizdXD
+\033[1;37;40m GITHUB:Github.Com.HafizdXD
 """
 
 class Main:
@@ -87,8 +87,8 @@ class Main:
 			
 			print("\033[0;93m [+] Berhasil Mengumpukan -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n%s [!] Note %s, %sJIKA%s AKUN (OK) TAPI DILOGINKAN CP HARAP TUNNGGU BEBERAPA HARI/MINGGU/BULAN Nanti Jebol Sendiri :) "%(G,Y,B,Y))
-				print("%s GUNAKAN SANDI INI, SILAHKAN SALIN DAN TEMPEL DI BAWAH : %s786786,123456,1234567,123456789"%(G,Y))
+				print("\n%s [!] Note %s, %sJIKA%s GUNAKAN SANDI INI DAN TEMPEL DI BAWAH "%(G,Y,B,Y))
+				print("%s : %s786786,123456,1234567,123456789"%(G,Y))
 				listpass = input("%s [?] Masukan Sandi :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] SANDI MINNIMAL 6 KARAKTER"%(B))
