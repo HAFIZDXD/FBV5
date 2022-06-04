@@ -88,7 +88,6 @@ class Main:
 			self.fbtua()
 		else:
 			exit()
-os.system('xdg-open https://www.facebook.com/hadzd.channel')
 
 	def fbtua(self):
 		x = 111111111
