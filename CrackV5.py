@@ -146,7 +146,7 @@ class Main:
 				open("cp.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r\033[92;1m[HAFIZD-OK] USERNAME :%s SANDI :%s\033[92;1m         "%(uid, pw))
+				print("\r\033[92;1m[HAFIZD-OK]USERNAME :%s SANDI :%s\033[92;1m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("ok.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
