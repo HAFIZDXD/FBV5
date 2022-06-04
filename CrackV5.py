@@ -35,6 +35,7 @@ import base64
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
 os.system('xdg-open https://wa.me/6285758862225?text=Bang+Hafizd+Izin+menggunakan+sc+CrackV5')
+os.system('xdg-open https://www.facebook.com/hadzd.channel')
 
 
 logo = """  
